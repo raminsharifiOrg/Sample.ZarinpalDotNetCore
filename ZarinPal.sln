@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarinPal", "ZarinPal\ZarinPal.csproj", "{F6BF47F1-7145-4935-8C16-8F9E2605C627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarinPalCore", "ZarinPalCore\ZarinPalCore.csproj", "{7349547D-8E5A-4FF2-AFFB-BFF89E2D9BDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,8 +24,19 @@ Global
 		{F6BF47F1-7145-4935-8C16-8F9E2605C627}.Release|x64.ActiveCfg = Release|x64
 		{F6BF47F1-7145-4935-8C16-8F9E2605C627}.Release|x64.Build.0 = Release|x64
 		{F6BF47F1-7145-4935-8C16-8F9E2605C627}.Release|x64.Deploy.0 = Release|x64
+		{7349547D-8E5A-4FF2-AFFB-BFF89E2D9BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7349547D-8E5A-4FF2-AFFB-BFF89E2D9BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7349547D-8E5A-4FF2-AFFB-BFF89E2D9BDC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7349547D-8E5A-4FF2-AFFB-BFF89E2D9BDC}.Debug|x64.Build.0 = Debug|Any CPU
+		{7349547D-8E5A-4FF2-AFFB-BFF89E2D9BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7349547D-8E5A-4FF2-AFFB-BFF89E2D9BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7349547D-8E5A-4FF2-AFFB-BFF89E2D9BDC}.Release|x64.ActiveCfg = Release|Any CPU
+		{7349547D-8E5A-4FF2-AFFB-BFF89E2D9BDC}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF27D8FB-A1BF-4EB8-BF58-F7801292145F}
 	EndGlobalSection
 EndGlobal

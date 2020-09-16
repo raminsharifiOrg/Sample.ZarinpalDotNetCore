@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ZarinPal
+namespace ZarinPalCore
 {
     class URLs
     {
@@ -37,12 +37,5 @@ namespace ZarinPal
             return String.Format(PAYMENT_VERIFICATION_URL, (IsSandBox ? SAND_BOX : WWW));
 
         }
-
-
-
-
-
-
-
     }
 }
